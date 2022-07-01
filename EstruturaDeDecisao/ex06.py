@@ -4,5 +4,5 @@ for i in range(3):
     num = float(input(f'Informe o {i + 1}° número: '))
     if num > maior:
         maior = num
-print(f'O maior numero digitado foi o {maior}')
+print(f'O maior numero digitado foi o {maior:.2f}')
 
